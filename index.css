@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;1,700&family=Manrope:wght@700;800&family=Montserrat:wght@500&family=Outfit&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body,html{
+    height: 100vh;
+    width: 100%;
+    /* background-color: hsl(218, 23%, 16%); */
+    background-color: hsl(218, 23%, 16%);
+}
+
+.total{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doticon{
+    margin-top: -1.5%;
+    border-radius: 50%;
+}
+
+.dot{
+    height: 50px;
+    width: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.icon{
+    margin-top: 25%;
+}
+
+.content{
+    padding: 40px;
+    /* font-family: "Manrope",sans-serif; */
+    background-color:  hsl(217, 19%, 24%);
+    height: 30%;
+    width: 25%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#advice_id{
+    font-family: 'Manrope', sans-serif;
+    font-size: smaller;
+    color: hsl(150, 100%, 66%);
+}
+#advice{
+    font-family: 'Manrope', sans-serif;
+    font-size: x-large;
+    color: hsl(193, 38%, 86%);
+}
