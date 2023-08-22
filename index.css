@@ -77,3 +77,10 @@ body,html{
     font-size: x-large;
     color: hsl(193, 38%, 86%);
 }
+
+@media (max-width: 851px), (max-height: 500px) { 
+    .content{
+        min-width: 200px;
+        min-height: 150px;
+    }
+} 

@@ -71,6 +71,7 @@ const promise1=fetch('https://api.adviceslip.com/advice').then(res=>{
     document.getElementById("advice_id").innerHTML="A D V I C E "+"&nbsp&nbsp# "+output.id;
     document.getElementById("advice").innerHTML='"'+output.advice+'"';
 })
+
 // Promise.all([promise1]).then(values=>{
 //     console.log(values)
 // })
